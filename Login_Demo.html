@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Login-Demo</title>
+    </head>
+    <style type="text/css">
+        .login::placeholder{
+            color: #3a3a3a;
+        }
+        .login{
+            border:none;
+            border-bottom: 1px solid #3a3a3a;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            outline: none;
+            padding: 0px 0px 5px 5px;
+        }
+        html {
+            height: 100%;
+        }
+
+        body {
+            height:auto;
+            margin: 0;
+            display:grid;
+            text-align: center;
+            justify-items: center;
+            align-items: center;
+        }
+        form{
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        a{
+            align-items: center;
+        }
+    </style>
+    <body>
+        <h3>LOGIN</h3>
+        <form id="Login_form">
+            <input type="text" name="username" placeholder="USERNAME" class="login"><br/>
+            <input type="password" name="password" placeholder="PASSWORD" class="login"><br/>
+            <input type="checkbox" class="login">Remember Me &nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Forgot Password</label> <br/>
+            <input type="submit" value="LOGIN"><br/>
+            <a href="SIGNUP1.html">Sign UP</a>
+        </form>
+    </body>
+</html>
