@@ -17,10 +17,6 @@ a.Header_Style{
 a:hover{
     text-decoration: underline;
 }
-img{
-    width: 32px;
-    height: 32px;
-}
 input{
     width:30px;
     height:30px;
@@ -32,29 +28,51 @@ input{
     margin-right: 15px;
     margin-top: 10px;
 }
+.SignIn{
+    width:35px;
+    height:37px;
+    margin-right: 10px; 
+    padding: 3px 10px;
+    border-radius: 50%;
+}
 /*BODY STYLES*/
 body{
     display: block;
     text-align: center;
+    max-width: 100%;
 }
 body img{
-    height:92px;
-    width:272px;
+    height:100px;
+    width:300px;
     padding: 109px 0px 0px;
 }
 .Body2{
     text-align: center;
+    padding-bottom: 10px;
+}
+.Body3{
+    padding-top: 10px;
 }
 #Search{
-    width: 450px;
-    line-height: 32px;
-    padding: 20px 10px;
-    border-radius: 20px;
-    
+    width: 580px;
+    height:45px;
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    border-left:1px solid #d3d3d3;
+    border-radius: 25px;
+    font:13px arial, sans-serif;
+    background-repeat: no-repeat;
+    background-position: 548px 8px;
+    background-size: 14px 19px;
+    position: relative;
+    left: 50px;
+    cursor: initial;
+    :650px;
 }
-.Body2 #Search{
-    line-height: 34px;
-} 
+#Search:hover{
+     box-shadow: 0 5px 15px rgba(145, 92, 182, .4); 
+}
 input[type="submit"]{
     background-color: #f2f2f2;
     border:1px solid #f2f2f2;
@@ -72,8 +90,13 @@ input[type="submit"]{
     user-select: none;
     width:fit-content;
 } 
-body span{
+input[type="submit"]:hover{
+    color: #2a2a2a;
+    border: 1px solid #cac7c7;
+}
+body label{
     color: black;
+    font:13px Arial;
 }
 body a{
     color:#1A0DAB;
@@ -81,50 +104,83 @@ body a{
     padding:0px 3px;
 }
 body input[type="text"]:hover{
-    box-shadow: 2px 2px #5F6368; 
+   border:1px solid #aaaaaa; 
+}
+.Search_icon{
+    height: 25px;
+    width: 25px;
+    vertical-align: middle; 
+    position: relative;
+    right:540px;
+    padding: 0px;
+
+}
+.Voice_icon{
+    height: 25px; 
+    width: 25px;
+    vertical-align: middle; 
+    cursor: pointer ; 
+    position: relative;
+    right: 50px;
+    padding: 10px;
 }
 /*FOOTER STYLES*/
 footer{
     position:absolute;
-    bottom:0;
-    width:100%; 
-    height:100px;
+    bottom:0px;
+    background: #f3f3f3;
+    padding-top: 25px;
+    border-top: 1px solid #e9e9e9;
+    width:99.4%; 
+    height:52px;
+    font:16px arial,sans-serif;
 }
-#FMain{
-    background-color:#f2f2f2;
-    border-top: #e4e4e4;
-    line-height: 40px;
-}
-hr{
-    background-color: #e4e4e4;
-}
-#Footer{
-    padding-left: 27px;
-    font: 13px Arial;
-    display: block;
-}
-span{
-    color: #5F6368;
-}
-.List1{
-    text-align: left;
-    margin: auto; 
-    padding: 0px 0px 0px 27px;
-    font: 13px Arial;
-}
-
-.List2{
-    text-align: right;
-    margin:auto;
-    padding: 0px 0px 0px 27px;
-    font: 13px Arial;
-}
-footer ul li {
-    display: inline;
-    font: 13px Arial;
-    padding: 10px;
-}
-footer ul li a{
+.Location{
+    color: #696969;
+    font:15px arial,sans-serif;
     text-decoration: none;
-    color:#5F6368; 
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.Location:hover{
+    text-decoration: none;
+}
+#India{
+    color: #5F6368;
+    float: left;
+    position: relative;
+    bottom:20px;
+    left:14px;
+    padding-right:15px;
+    padding-left:10px;
+}
+#Last{
+    border-top: 1px solid #e9e9e9;
+}
+.left{
+    float: left;
+    position: relative;
+    color: #696969;
+    font:13px arial,sans-serif;
+    text-decoration: none;
+    bottom:0px;
+    right:4px;
+    padding-top: 10px;
+    padding-right:5px;
+    padding-left:27px;
+}
+.right{
+    float: right;
+    position: relative;
+    bottom:0px;
+    right:10px;
+    padding-top: 10px;
+    padding-right:15px;
+    padding-left:15px;
+    color: #696969;
+    font:13px arial,sans-serif;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
 }
