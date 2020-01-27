@@ -1,0 +1,330 @@
+body{
+	display: block;
+	background:linear-gradient(white, #D3D8E8);
+	margin:0;
+}
+/*HEADER STYLES*/
+#Header_Main{
+    width:100%;
+	height:82px;
+	position:absolute;
+	top:0;
+	left:0;
+	color:white;
+    border-bottom: 0.5px solid black;
+}
+.fb-header{
+    width:100%;
+	position:absolute;
+	background:#3d5b99;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+}
+#FBIcon{
+    width:100%;
+	height:82px;
+	position:absolute;
+	background:#3d5b99;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-weight: 20px;
+}
+.img{
+	margin-top:20px;
+	margin-left:140px;
+    height:50px;
+    width:175px;	
+}
+#Email{
+    left:745px;
+	height:60px;
+	width:180px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+label{
+	color:#ffffff;
+	font:12px Helvetica,Arial,Sans-serif;
+	padding:0px 0px 0px 1px;
+}
+#password{
+    left:164px;
+	height:60px;
+	font-family:verdana;
+	font-size:12px;
+}
+.input{
+    border: 1px solid black;
+	height: 23px;
+	width:150px;
+	background: white;
+	padding:3px 3px 4px;
+	margin-top:3px;
+}
+.Forgot{
+    color: #9CB4D8;
+    font: 12px arial,sans-serif,Helvetica;
+    text-decoration: none;
+}
+.Forgot:hover{
+    text-decoration: underline;
+}
+.Login{
+    left:1072px;
+	top:35px;
+    background:#4267B2;
+    display: inline-block;
+	color:white;
+	position:absolute;
+	z-index:20;
+	height:23px;
+    width:50px;
+    border:1px solid #2a477e;
+	cursor:pointer;
+	border-radius: 1px;
+	font-size:12px;
+	font-weight: bold;
+	padding:2px 6px;
+}
+
+/*BODY STYLES*/
+.fb-body{
+	position:absolute;
+	left:0px;
+	top:90px;
+	width:100%;
+	height:50px;
+}
+#Left_body{
+    left:143px;
+	top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#0e385f;
+	height:75px;
+    width:550px;
+    margin:20px 0px 0px;
+    font-weight: bold;
+}
+#Right_body{
+    left:720px;
+	top:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color: #333333;
+	font-weight:bold;
+	height:75px;
+	width:500px;
+}
+#Sub_right{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 19px;
+    color: #1d2129;
+    top:50px;
+    font-weight: normal;
+}
+#content{
+    top:113px;
+	left:721px;
+	font-size:20px;
+	color:#142170;
+	width:500px;
+	height:75px;
+}
+.world{
+	width:536px;
+	height:196px;
+	margin-top:95px;
+	margin-left:145px;	
+}
+.FName{
+    width:194px;
+    height:39px;
+    padding:8px 10px;
+    border-radius: 5px;
+	font-size: 18px;
+	margin-right: 8px;
+    border-color: #bdc7d8;
+    border-top: 1px solid #bdc7d8;
+    border-bottom: 1px solid #bdc7d8;
+    border-right: 1px solid #bdc7d8;
+    border-left:1px solid #bdc7d8;
+}
+.Mobile{
+    width: 400px;
+    height:39px;
+    padding:8px 10px;
+    border-radius: 5px;
+	font-size: 18px;
+	margin-bottom:10px;
+    border-color:  #bdc7d8;
+    border-top: 1px solid #bdc7d8;
+    border-bottom: 1px solid #bdc7d8;
+    border-right: 1px solid #bdc7d8;
+    border-left:1px solid #bdc7d8;
+}
+.Name{
+	margin-bottom:10px;
+}
+.Bday{
+	margin-top:10px;
+}
+.Bday label{
+	color: #90949c;
+    font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}  
+select{
+	margin-top:10px;
+	background: #ffffff;
+	padding:5px;
+	font-size: 13px;
+	height: 30px;
+	width:57px;
+	border: 1px solid #ccd0d5;
+}
+.month{
+	width:70px;
+	margin-left:-5px;
+}
+.year{
+	width:70px;
+	margin-left:-5px;
+}
+.gender{
+	margin:10px 0px 5px;
+}
+.gender label{
+	color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.gender span{
+	font:18px Arial, Helvetica, sans-serif;
+	color:#1d2129;
+}
+.gen{
+	margin-top:10px;
+	margin-left:5px;
+	display: inline-block;
+}
+.gclass{
+	margin-right: 4px;
+}
+p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	margin: 1em 0;
+}
+
+.policy{
+	color: #777777;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 316px;
+	margin:11px 0px;
+	margin-top:10px;
+}
+p a{
+	text-decoration: none;
+	color: #385898;
+    cursor: pointer;
+}
+.SignUp{
+	position: relative;
+	width:194px;
+	height:40px;
+	margin:10px 0px;
+	padding:7px 20px;
+	font-size:19px;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif ;
+	background-color: #69a74e;
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow: inset 0 1px 1px #a4e388;
+	color:#ffffff;
+	border: 1px solid #2c5115; ;
+	border-radius: 5px;
+	text-align:center;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.End{
+	color: #666666;
+	font:13px Helvetica, Arial, sans-serif;
+	margin:10px 0px 0px;
+	padding:15px 0px 0px;
+	font-weight: bold;
+}
+.End a{
+	color: #385898;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+}
+.End a:hover{
+	text-decoration: underline;
+}
+/*FOOTER STYLES*/
+footer{
+	margin-top:670px;
+	background-color: white;
+	color: #737373;
+	position: relative;
+}
+#footer{
+	width:100%;
+	height:117px;
+	padding-top: 60px;
+}
+.FDiv1 span{
+	font:12px Helvetica, Arial, Sans-serif;
+	color:#737373;
+	margin-left:140px;
+	margin-top:5px;
+}
+.Language{
+	text-decoration: none;
+	color:#385898;
+	font:12px Helvetica, Arial, Sans-serif;
+	margin-left:3px;
+}
+.Language:hover{
+    text-decoration: underline;
+}
+hr{
+	width:80%;
+	border:0.5px solid #dddfe2;
+	margin-left:140px;
+}
+.LastDiv{
+	text-decoration: none;
+	color:#385898;
+	font:12px Helvetica, Arial, Sans-serif;
+	margin-left:20px;
+}
+.LastDiv:hover{
+	text-decoration: underline;
+}
+.FDiv2{
+	margin-left:125px;
+	margin-top:10px;
+	margin-right:70px;
+	margin-bottom:20px;
+}
+.span{
+	font:11px Helvetica, Arial, Sans-serif;
+	color:#737373;
+	margin-left:140px;
+}
