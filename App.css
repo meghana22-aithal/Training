@@ -1,0 +1,10 @@
+span:hover{
+  cursor: pointer;
+}
+.personal li{
+  list-style-type: none;
+}
+img{
+  height:250px;
+  width:250px;
+}
